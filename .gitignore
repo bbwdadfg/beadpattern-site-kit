@@ -1,0 +1,9 @@
+/.venv/
+/dist/
+/target/
+/Cargo.lock
+*.gem
+*.tgz
+*.tar
+__pycache__/
+*.egg-info/

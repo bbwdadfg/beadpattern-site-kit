@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "beadpattern-site-kit"
+version = "0.1.0"
+description = "Small URL helpers for BeadPattern, the free bead pattern generator."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "BeadPattern", email = "hello@beadpattern.net" }]
+keywords = ["beadpattern", "bead pattern", "perler", "hama", "bead pattern generator"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Homepage = "https://beadpattern.net"
+Source = "https://github.com/bbwdadfg/beadpattern-site-kit"
+"Photo to bead pattern" = "https://beadpattern.net/photo-to-bead-pattern"

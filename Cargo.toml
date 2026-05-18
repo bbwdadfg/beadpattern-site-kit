@@ -1,0 +1,16 @@
+[package]
+name = "beadpattern-site-kit"
+version = "0.1.0"
+edition = "2021"
+description = "Small URL helpers for BeadPattern, the free bead pattern generator."
+license = "MIT"
+homepage = "https://beadpattern.net"
+repository = "https://github.com/bbwdadfg/beadpattern-site-kit"
+documentation = "https://docs.rs/beadpattern-site-kit"
+readme = "README.md"
+keywords = ["beadpattern", "beads", "perler", "hama", "patterns"]
+categories = ["web-programming"]
+
+[lib]
+name = "beadpattern_site_kit"
+path = "rust/src/lib.rs"

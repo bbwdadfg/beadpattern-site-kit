@@ -1,0 +1,31 @@
+{
+  "name": "beadpattern-site-kit",
+  "version": "0.1.0",
+  "description": "Small URL helpers for BeadPattern, the free bead pattern generator.",
+  "homepage": "https://beadpattern.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbwdadfg/beadpattern-site-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bbwdadfg/beadpattern-site-kit/issues"
+  },
+  "keywords": [
+    "beadpattern",
+    "bead-pattern",
+    "perler",
+    "hama",
+    "bead-pattern-generator"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test_node.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
