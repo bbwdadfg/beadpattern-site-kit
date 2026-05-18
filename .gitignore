@@ -10,6 +10,7 @@
 /.elixir_ls/
 /_build/
 /deps/
+/doc/
 *.beam
 *.gem
 *.tgz
