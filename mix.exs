@@ -4,10 +4,10 @@ defmodule BeadpatternSiteKit.MixProject do
   def project do
     [
       app: :beadpattern_site_kit,
-      version: "0.1.1",
+      version: "0.1.2",
       elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
-      deps: [],
+      deps: deps(),
       description: "Small URL helpers for BeadPattern, the free bead pattern generator.",
       package: package(),
       docs: [
@@ -19,6 +19,12 @@ defmodule BeadpatternSiteKit.MixProject do
 
   def application do
     [extra_applications: [:logger]]
+  end
+
+  defp deps do
+    [
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
+    ]
   end
 
   defp package do

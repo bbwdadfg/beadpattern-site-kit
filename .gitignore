@@ -6,6 +6,7 @@
 /.dart_tool/
 /.packages
 /pubspec.lock
+/mix.lock
 /.elixir_ls/
 /_build/
 /deps/
